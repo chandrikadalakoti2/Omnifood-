@@ -1,0 +1,136 @@
+@media only screen and (max-width:1200px)
+{
+    .heads{
+            width:100%;
+            padding:0 2%;
+    }
+
+    .row{padding: 0 2%;}
+}
+
+@media only screen and (max-width:1023px)
+{
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    .long-copy{width:85%;margin-left:10%;}
+    .navbar{margin: 0 10% 0 40%;}
+    .sticky .navbar li{white-space: nowrap;display:inline-block;}
+    .box p{width:100%;}
+    cite img{font-size: 10px;margin:0 20px;}
+    .city-features{font-size: 90%;}
+    .plan-box{max-width: 100%;margin-right: 0%;}
+    .plan-price{font-size:250%;}
+    .contact-form{width: 100%;font-size: 15px;margin-left:10%;margin-right: 10%;}
+}
+
+@media only screen and (max-width:767px)
+{
+    body{font-size: 14px;}
+    section{padding: 50px 0;}
+    .col{width:100%;margin:0 0 1% 1.6%;}
+    .navbar{display: none;}
+    .navbar{float:left;}
+    .navbar li,.sticky .navbar li{white-space:wrap;display:block;margin:5px 0 0 0;padding: 0;}
+    .navbar li a:link,.navbar li a:visited{display:block;border:0;font-size: 100%;}
+    .mobile-nav-icon{display:inline-block;}
+    .sticky .navbar li a:link,.sticky .navbar li a:visited
+{
+    padding:8px 0;
+    color:rgb(116, 111, 111);
+    margin-bottom:0;
+    text-align: center;
+}
+    .sticky .navbar li{margin:0;padding: 0;}
+    .navbar{margin:10px  10% 0 30%;padding-left: 10%;}
+    .row{padding: 0 1%;}
+    h1{font-size: 180%;}
+    h2{font-size:150%;}
+    .long-copy{max-width:200%;}
+    .works-steps{margin-bottom:20px;}
+    .works-steps:last-of-type{margin-bottom:60px;}
+    .works-steps div{height:40px;width:40px;margin-right:15px;padding:4px;}
+    .steps-box:first-child{margin-left:30%;text-align: center;}
+    .row-image 
+    {
+        margin-left:50px;
+        margin-top: 40px;
+        margin-right: 30px;
+    } 
+    .row-image img{
+       height:70px; 
+    };
+
+    .long-copy{
+        width:100%;
+        text-align: justify ;
+        margin-left: 1%;
+    }
+
+    .section-features
+    {
+        padding: 15px;
+    }
+    .section-features i{
+        font-size: 200%;
+    }
+
+    .steps-box img{
+        float: left;
+        margin-left: 20px;
+    }
+
+    .section-features h3{
+        margin-left: 0;
+        margin-right: 10px;
+        padding:0 20px 0 0;
+    }
+
+    .section-steps a img{
+        width:0%;
+    }
+
+    .city-features{
+        margin-left: 10px;
+    }
+
+    .contact-form{max-width: 100%;font-size: 15px;margin-left:20%;margin-right: 20%;}
+}
+
+@media only screen and  (max-width:480px)
+{
+    .navbar{margin: 0 5% 0 30%;padding-left: 5%;} 
+    section{padding: 40px 0;}
+    header{font-size: 10px;} 
+    .row-image img
+    {
+        margin-left:10px;
+    } 
+    .long-copy{
+        max-width:100%;
+        text-align: justify ;
+        margin-left: 1%;
+    }
+    .contact-form{max-width: 100%;font-size: 12px;margin: auto;}
+    input{width:80%;}
+    .section-features
+    {
+        padding: 15px;
+    }
+    .section-features i{
+        font-size: 200%;
+    }
+
+    .section-features h3{
+        margin-left: 0;
+        margin-right: 10px;
+        padding:0 20px 0 0;
+    }
+
+    .section-steps a img{
+        width:0%;
+    }
+    cite{font-size: 50%;}
+
+    cite img{margin:0 10px 0 0;}
+
+}
