@@ -51,7 +51,7 @@ header
 
 .heads
 {
-    position :relative;
+    position :absolute;
     width:auto;
     top: 50%;
     left: 50%;
