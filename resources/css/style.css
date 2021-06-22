@@ -10,6 +10,7 @@ html,body{
     height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x:hidden;
 }
 
 
@@ -51,7 +52,7 @@ header
 
 .heads
 {
-    position :absolute;
+    position :sticky;
     width:auto;
     top: 50%;
     left: 50%;
