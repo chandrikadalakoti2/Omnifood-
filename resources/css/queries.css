@@ -4,7 +4,7 @@
             width:90%;
             padding:0 2%;
     }
-
+    footer p{margin: 60%;}
     .row{padding: 0 2%;}
 }
 
@@ -16,6 +16,7 @@
     .navbar{margin: 0 10% 0 40%;}
     .sticky .navbar li{white-space: nowrap;display:inline-block;}
     .box p{width:90%;}
+    footer p{margin-left:10%;white-space: nowrap;}
     cite img{font-size: 10px;margin:0 20px;}
     .city-features{font-size: 90%;}
     .plan-box{max-width: 90%;margin-right: 0%;}
@@ -37,7 +38,7 @@
     .navbar li a:link,.navbar li a:visited{display:block;border:0;font-size: 100%;}
     .mobile-nav-icon{display:inline-block;margin:10px;}
      .navbar li {display:block;margin-right:100px;margin-top: 20px;}
-
+    body{overflow-x: hidden;}
     .sticky .navbar li a:link,.sticky .navbar li a:visited
 {
     padding:8px 0;
@@ -65,6 +66,7 @@
        height:70px; 
     };
 
+
     .row-image-black img{margin-top: 50px;}
 
     .long-copy{
@@ -72,6 +74,8 @@
         text-align: justify ;
         margin-left: 1%;
     }
+
+    footer p{margin-left:30%;}
 
     .section-features
     {
@@ -81,6 +85,10 @@
         font-size: 200%;
     }
 
+    .social-icons:nth-child(odd){float:right;position:relative;top:0;right:300px;display:block;
+    }
+    .social-icons:nth-child(even){float:right;}
+    
     .steps-box img{
         float: left;
         margin-left: 20px;

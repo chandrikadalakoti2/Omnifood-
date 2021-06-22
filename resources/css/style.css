@@ -52,7 +52,7 @@ header
 .heads
 {
     position :absolute;
-    width:1140px;
+    width:auto;
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
@@ -600,8 +600,11 @@ footer{
 footer p{
     color:rgb(116, 104, 104);
     text-align: center;
+    margin-left:40%;
     font-size: 90%;
     margin-top: 30px;
+
+    display:inline;
 }
 
 .ion-social-twitter,
