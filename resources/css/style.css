@@ -159,7 +159,7 @@ h3{
 
 .sticky .row-image{display: none;}
 
-.sticky .row-image-black{display: block;}
+.sticky .row-image-black{display: block;margin-top: 25px;}
 
 .mobile-nav-icon{
     float:right;

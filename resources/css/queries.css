@@ -1,7 +1,7 @@
 @media only screen and (max-width:1200px)
 {
     .heads{
-            width:100%;
+            width:90%;
             padding:0 2%;
     }
 
@@ -15,24 +15,29 @@
     .long-copy{width:85%;margin-left:10%;}
     .navbar{margin: 0 10% 0 40%;}
     .sticky .navbar li{white-space: nowrap;display:inline-block;}
-    .box p{width:100%;}
+    .box p{width:90%;}
     cite img{font-size: 10px;margin:0 20px;}
     .city-features{font-size: 90%;}
-    .plan-box{max-width: 100%;margin-right: 0%;}
+    .plan-box{max-width: 90%;margin-right: 0%;}
     .plan-price{font-size:250%;}
-    .contact-form{width: 100%;font-size: 15px;margin-left:10%;margin-right: 10%;}
+    .contact-form{width: 90%;font-size: 15px;margin-left:10%;margin-right: 10%;}
 }
 
 @media only screen and (max-width:767px)
 {
     body{font-size: 14px;}
     section{padding: 50px 0;}
-    .col{width:100%;margin:0 0 1% 1.6%;}
+    .col{width:90%;margin:0 0 1% 1.6%;}
     .navbar{display: none;}
     .navbar{float:left;}
+    
+.sticky .mobile-nav-icon i{color:#222;
+    margin: 20px;}
     .navbar li,.sticky .navbar li{white-space:wrap;display:block;margin:5px 0 0 0;padding: 0;}
     .navbar li a:link,.navbar li a:visited{display:block;border:0;font-size: 100%;}
-    .mobile-nav-icon{display:inline-block;}
+    .mobile-nav-icon{display:inline-block;margin:10px;}
+     .navbar li {display:block;margin-right:100px;margin-top: 20px;}
+
     .sticky .navbar li a:link,.sticky .navbar li a:visited
 {
     padding:8px 0;
@@ -45,7 +50,7 @@
     .row{padding: 0 1%;}
     h1{font-size: 180%;}
     h2{font-size:150%;}
-    .long-copy{max-width:200%;}
+    .long-copy{max-width:180%;}
     .works-steps{margin-bottom:20px;}
     .works-steps:last-of-type{margin-bottom:60px;}
     .works-steps div{height:40px;width:40px;margin-right:15px;padding:4px;}
@@ -59,6 +64,8 @@
     .row-image img{
        height:70px; 
     };
+
+    .row-image-black img{margin-top: 50px;}
 
     .long-copy{
         width:100%;
