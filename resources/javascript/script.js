@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
    $(window).resize(function() {
-        if ($(this).width() > 769) {
+        if ($(this).width() > 7) {
                $(".navbar").show(); 
         }
     
