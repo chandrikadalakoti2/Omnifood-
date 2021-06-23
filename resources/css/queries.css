@@ -31,7 +31,7 @@
     .col{width:90%;margin:0 0 1% 1.6%;}
     .navbar{display: none;}
     .navbar{float:left;}
-    
+    .sticky .navbar{margin-right: 80px;width:30%;background-color:rgb(240, 239, 234);}
 .sticky .mobile-nav-icon i{color:#222;
     margin: 20px;}
     .navbar li,.sticky .navbar li{white-space:wrap;display:block;margin:5px 0 0 0;padding: 0;}

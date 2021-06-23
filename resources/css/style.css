@@ -214,6 +214,8 @@ h3{
 
 .sticky .mobile-nav-icon i{color:#222;}
 
+.sticky .navbar{clear:both;overflow:hidden;box-sizing: border-box;}
+
 .sticky nav{margin-bottom: 10px;}
 
 .sticky{position: fixed;z-index: 9999;top:0;left:0;width:100%;box-shadow: 0 2px 2px rgb(211, 207, 207);background-color: #e7ede6;opacity:0.98;}
