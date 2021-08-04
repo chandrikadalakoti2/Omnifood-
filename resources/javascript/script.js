@@ -1,19 +1,5 @@
 $(document).ready(function()
 {
-   $(window).resize(function() {
-        if ($(this).width() > 7) {
-               $(".navbar").show(); 
-        }
-    
-    });
-
-
-    $(window).resize(function()
-    {
-        if($(this).width()>1200){$("body").css("overflow-x",hidden);
-    }
-    });
-    
 
     $('.js--section-features').waypoint(function(direction)
     {
